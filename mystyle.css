@@ -2,8 +2,13 @@
 body {
   background-color: #0d0d0d;
   color: #e6e6e6;
-  font-family: 'Georgia', serif;
+  font-family: papyrus;
   padding: 40px;
+}
+
+h1, h2{
+	color: ffcccc;
+	text-align: center;
 }
 
 #questions {
@@ -50,17 +55,3 @@ body {
 	font-style: italic;
 	color: #99ff99;
 }
-
-/*
-body{
-	  background-color: lightblue;
-	 
-	 #answer{
-		 visibility: hidden;
-	 }
-	 #why{
-		 visibility: hidden;
-	 }
-	 
-}
-*/
