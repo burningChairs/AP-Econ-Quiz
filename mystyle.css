@@ -1,15 +1,38 @@
 
 body {
-  background-color: #0d0d0d;
+  background-color: #000000;
   color: #e6e6e6;
   font-family: papyrus;
-  padding: 40px;
+  padding: 100px;
+  border: 20px solid #330000;
+  margin: 50px 35px;
 }
 
 h1, h2{
-	color: ffcccc;
 	text-align: center;
+	color: #BE9A9A;
 }
+
+p{
+	font-size: 15px;
+	color: #000000;
+	border: 10px double #330000;
+	background-color: #BE9A9A;
+}
+
+img{
+	
+	width: 200px;
+	height: 175px;
+	border: 10px solid #330000;
+	float: right;	
+}
+
+a{
+	color: #330000;
+}
+
+
 
 #questions {
 	max-width: 800px;
@@ -18,11 +41,11 @@ h1, h2{
 
 .question-text {
 	background-color: #330000;
-	color: #ffcccc;
-	font-size: 20px;
+	color: #BE9A9A;
+	font-size: 25px;
 	padding: 12px;
 	cursor: pointer;
-	border: 1px solid #990000;
+	border: 2px solid #AA5252;
 	margin-bottom: 10px;
 }
 
@@ -46,7 +69,7 @@ h1, h2{
 
 .incorrect-answer {
 	background-color: #660000;
-	color: #ffcccc;
+	color: #BE9A9A;
 }
 
 .explanation {
