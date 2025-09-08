@@ -5,7 +5,7 @@ body {
   font-family: papyrus;
   padding: 100px;
   border: 20px solid #330000;
-  margin: 50px 35px;
+  margin: 40px, 100px;
 }
 
 h1, h2{
@@ -88,4 +88,18 @@ ul {
 	padding: 10px;
 	font-style: italic;
 	color: #99ff99;
+}
+
+.comment-box {
+	margin-bottom: 20px;
+	background-color #BE9A9A;
+}
+.comments {
+	margin-top: 20px;
+}
+.comment {
+	padding: 10px;
+	border: 1px solid #000000;
+	margin-bottom: 10px;
+	border-radius: 5px; 
 }
