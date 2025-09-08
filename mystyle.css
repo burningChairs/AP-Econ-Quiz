@@ -24,7 +24,7 @@ img{
 	
 	width: 150px;
 	height: 115px;
-	border: 10px double #330000;
+	border: 10px solid #330000;
 	float: right;	
 	padding: 20px 20px;
 	background: #BE9A9A;
@@ -90,10 +90,18 @@ ul {
 	color: #80bd9b;
 }
 
-textarea{
+h3, h4{
+	color: #BE9A9A;
+}
+
+textarea, button{
 	background-color: #BE9A9A;
 	border: 1px solid #4d0000;
 	cursor: pointer;
+}
+
+::placeholder{
+	color: #000000;
 }
 
 .comment-box {
