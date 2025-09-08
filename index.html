@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>AP Macroeconomics Practice</title>
 	<link rel="stylesheet" href="mystyle.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="myscript.js"></script>
-	
-
-	
+	<script src="myscript.js"></script
 	
 </head>
 <body>
@@ -85,34 +82,18 @@
 		<img src = "cat.webp" alt="cat listening to music">
 		<p><a href = "https://cdn.cdnstep.com/3ANtJA9ujyT2AsET47gF/4.webp" >Image source: Cat <br></a>And thank you for takin my short quiz! <br>If you enjoyed this </p>
 
+	<h3>Leave a Comment:</h3>
 
-
- <h1>Leave a Comment</h1>
-  <div class="comment-box">
-    <textarea id="comment-input" rows="4" cols="50" placeholder="Write your comment here..."></textarea><br>
-    <button id="add-comment">Add Comment</button>
-  </div>
-  <div class="comments">
-    <h2>Comments:</h2>
-    <div id="comment-list"></div>
-  </div>
-
-  <script>
-    $(document).ready(function() {
-      $('#add-comment').click(function() {
-        const commentText = $('#comment-input').val().trim();
-        if (commentText) {
-          // Add the comment to the list
-          $('#comment-list').append(`<div class="comment">${commentText}</div>`);
-          // Clear the input field
-          $('#comment-input').val('');
-        } else {
-          alert('Please write a comment before submitting.');
-        }
-      });
-    });
-  </script>
-
+	<div class="comment-box">
+		<textarea id="comment-input" rows="4" cols="50" placeholder="Write comment here..."></textarea><br>
+		<button id="add-comment">Add Comment</button>
+	</div>
+	<div class="comments">
+		<h4>Comments:</h4>
+		<div id="comment-list"></div>
+	</div>
+	
+	
 
 </body>
 </html>

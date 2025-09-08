@@ -74,12 +74,12 @@ ul {
 }
 
 .correct-answer {
-	background-color: #003300;
-	color: #ccffcc;
+	background-color: #35492A;
+	color: #80bd9b;
 }
 
 .incorrect-answer {
-	background-color: #660000;
+	background-color: #572727;
 	color: #BE9A9A;
 }
 
@@ -87,19 +87,25 @@ ul {
 	display: none;
 	padding: 10px;
 	font-style: italic;
-	color: #99ff99;
+	color: #80bd9b;
+}
+
+textarea{
+	background-color: #BE9A9A;
+	border: 1px solid #4d0000;
+	cursor: pointer;
 }
 
 .comment-box {
 	margin-bottom: 20px;
-	background-color #BE9A9A;
+	cursor: pointer;
 }
 .comments {
 	margin-top: 20px;
 }
 .comment {
 	padding: 10px;
-	border: 1px solid #000000;
+	border: 1px solid #BE9A9A;
 	margin-bottom: 10px;
 	border-radius: 5px; 
 }
